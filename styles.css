@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #524d4d; 
+    background-image: url('solar-energy-image.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #1a1a1a; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #ffc107;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+
+header nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    
+}
+
+main:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    font-size: 24px;
+    background-color: #f4f4f4; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+ul, ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+.myth-fact {
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+.myth-fact li {
+    margin-bottom: 10px;
+}
+
+.myth-fact li strong {
+    color: #007bff;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    clear: both; 
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header nav ul li {
+        margin-right: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
